@@ -1,5 +1,7 @@
 # ParamChanger
 
+ParamChanger is a tool allowing you to replace the parameters of a list of urls by a payload entered as an argument.
+
 ## Install:
 ```bash
 $ git clone https://github.com/mathis2001/ParamChanger.git
