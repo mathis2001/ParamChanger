@@ -12,7 +12,11 @@ $ cat urls.txt | python3 ParamChanger.py <payload>
 
 or with other tools
 
+$ python3 webhackurls.py -d target.com | python3 ParamChanger.py <payload> > urls.txt | eyewitness -f urls.txt --web
+
 $ python3 webhackurls.py -d target.com | python3 ParamFirstChecker.py | python3 ParamChanger.py <payload>
+
+and their is a lot of other combination possibilities.
 ```
 ## Screens:
 
